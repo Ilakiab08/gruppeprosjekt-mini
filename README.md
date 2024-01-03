@@ -1,2 +1,7 @@
 # gruppeprosjekt-mini
- Gruppeprosjekt AEI - Januar
+
+Gruppeprosjekt AEI - Januar
+
+André:
+
+- Made secsons in the Js code.
