@@ -1,6 +1,7 @@
 const fetchNews = async () => {
     const response = await fetch("https://ok.surf/api/v1/cors/news-feed");
     const data = await response.json();
+    console.log(data);
 
     const container = document.getElementById("news-container");
 
