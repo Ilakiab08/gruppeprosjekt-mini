@@ -32,7 +32,7 @@ let data; // Declare data variable globally
             });
         };
 
-       /*  const debounce = (func, delay) => {
+        const debounce = (func, delay) => {
             let timeout;
             return function () {
                 const context = this;
@@ -43,7 +43,7 @@ let data; // Declare data variable globally
                 }, delay);
             };
         };
- */
+
         const makeElements = (type, parameters) => {
             const element = document.createElement(type);
             Object.entries(parameters).forEach(([propertyKey, propertyValue]) => {
