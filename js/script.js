@@ -32,6 +32,11 @@ let data; // Declare data variable globally
             });
         };
 
+        const searchNews = () => {
+            const searchInput = document.getElementById("search-input").value;
+            filterNews(searchInput);
+        };
+
         const debounce = (func, delay) => {
             let timeout;
             return function () {
